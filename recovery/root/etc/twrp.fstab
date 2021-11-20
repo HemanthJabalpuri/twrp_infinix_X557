@@ -1,0 +1,23 @@
+/system          ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/system
+/system_image    emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/system
+/data            ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/userdata    flags=encryptable=/dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/metadata
+/cache           ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/cache
+/boot            emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/boot
+/recovery        emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/recovery
+/misc            emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/para
+
+/protect_f       ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/protect1
+/protect_s       ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/protect2
+/nvdata          ext4    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/nvdata
+/nvram           emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/nvram
+/proinfo         emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/proinfo
+
+/persistent      emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/frp
+/bootloader      emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/lk
+/logo            emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/logo
+/expdb           emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/expdb
+/secro           emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/secro
+/seccfg          emmc    /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/seccfg
+
+/external_sd     auto    /dev/block/mmcblk1p1                        /dev/block/mmcblk1
+/usb-otg         auto    /dev/block/sda1                             /dev/block/sda        flags=storage;wipeingui;removable
